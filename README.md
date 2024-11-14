@@ -18,7 +18,7 @@ The database contains several key tables, including:
 ## 📝 SQL Exercises
 Here’s a summary of the exercises included:
 1. Actors in a Specific Movie  
-  - Retrieve the first and last names of actors who starred in the movie *Inception*.
+  - Retrieve the first and last names of actors who starred in the movie *Poseidon Forever*.
 
 2. Top Spending Customers  
   - Identify the top 5 customers by total rental spend, including their name, email, and total amount spent.
