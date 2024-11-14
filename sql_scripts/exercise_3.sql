@@ -1,3 +1,4 @@
+# Check for duplicates in the actor table by actor name.
 SELECT first_name, last_name, COUNT(*)
 FROM actor 
 GROUP BY first_name, last_name
