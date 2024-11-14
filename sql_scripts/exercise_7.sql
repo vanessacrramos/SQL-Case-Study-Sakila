@@ -1,3 +1,4 @@
+# Find films rented more than 30 times, showing the title and rental count.
 SELECT f.title, COUNT(f.film_id) AS number_of_rents
 FROM film f 
 JOIN inventory i ON f.film_id = i.film_id 
