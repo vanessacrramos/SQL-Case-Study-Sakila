@@ -59,9 +59,9 @@ To run these SQL scripts, you’ll need:
 2. SQL Client: Use a tool like DBeaver or DB Browser for SQLite to execute the queries.
 
 ## How to Import the Database in DBeaver
-Install DBeaver and open it.
-Go to Database > New Database Connection > SQLite.
-Import the sqlite-sakila.db file and click Finish.
+- Install DBeaver and open it.
+- Go to Database > New Database Connection > SQLite.
+- Import the sqlite-sakila.db file and click Finish.
 
 ## 💡 Future Improvements
 Add more complex queries using window functions.
