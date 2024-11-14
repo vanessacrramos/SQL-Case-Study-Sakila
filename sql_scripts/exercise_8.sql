@@ -1,3 +1,4 @@
+# Identify cities with the highest and lowest average rental rates.
 SELECT * FROM (
 SELECT c.city, AVG(f.rental_rate) AS average_rental_rate, 'Highest' AS highest_or_lowest
 FROM city c
