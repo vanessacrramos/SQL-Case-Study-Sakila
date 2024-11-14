@@ -19,7 +19,7 @@ The database contains several key tables, including:
 Here’s a summary of the exercises included:
 1. Actors in a Specific Movie  
   - Retrieve the first and last names of actors who starred in the movie *Poseidon Forever*.
-
+  - [View Query](https://github.com/vanessacrramos/SQL-Case-Study-Sakila/blob/main/sql_scripts/exercise_1.sql) 
 2. Top Spending Customers  
   - Identify the top 5 customers by total rental spend, including their name, email, and total amount spent.
 
