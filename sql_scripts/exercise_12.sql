@@ -1,3 +1,4 @@
+# Calculate the number of movies returned late, early, and on time.
 WITH rental_cte AS (
 SELECT r.rental_id, r.rental_date, r.return_date, f.rental_duration, CASE 
         WHEN (julianday(r.return_date) - julianday(r.rental_date)) = f.rental_duration THEN 'On time'
