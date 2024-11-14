@@ -1,3 +1,4 @@
+# Bonus with RANK function
 WITH actors_cte AS (
 SELECT CONCAT(a.first_name, ' ', a.last_name) AS actor_name, COUNT(*) AS amount_of_starred_movies, DENSE_RANK() OVER (ORDER BY COUNT(*) DESC) AS actors_rank
 FROM actor a 
