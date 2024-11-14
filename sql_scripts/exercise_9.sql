@@ -1,0 +1,11 @@
+WITH actors_cte AS (
+SELECT CONCAT(a.first_name, ' ', a.last_name) AS actor_name, COUNT(*) AS amount_of_starred_movies, DENSE_RANK() OVER (ORDER BY COUNT(*) DESC) AS actors_rank
+FROM actor a 
+JOIN film_actor fa ON a.actor_id = fa.actor_id
+GROUP BY a.first_name, a.last_name , a.actor_id 
+)
+
+SELECT actor_name, amount_of_starred_movies, actors_rank
+FROM actors_cte
+WHERE actors_rank < 11
+ORDER BY amount_of_starred_movies DESC
