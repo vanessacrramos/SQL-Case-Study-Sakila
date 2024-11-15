@@ -63,9 +63,5 @@ To run these SQL scripts, you’ll need:
 - Go to Database > New Database Connection > SQLite.
 - Import the sqlite-sakila.db file and click Finish.
 
-## 💡 Future Improvements
-Add more complex queries using window functions.
-Visualize the analysis in dashboards or charts using tools like Tableau or Power BI.
-
 ## 🤝 Contributions
 Feel free to fork this repository, suggest improvements, or add more exercises.
