@@ -59,6 +59,7 @@ Here’s a summary of the exercises included:
 **10. Top Actors by Appearances**
   - List the top 10 actors based on the number of films they've appeared in.
   - [View Query](https://github.com/vanessacrramos/SQL-Case-Study-Sakila/blob/main/sql_scripts/exercise_10.sql)
+  - Bonus with RANK function:[View Query](https://github.com/vanessacrramos/SQL-Case-Study-Sakila/blob/main/sql_scripts/exercise_10_top_actors_with_ranking.sqlsql)
 
 **11. Most Rented Movies by Genre**
   - Show the most rented movies by genre and the revenue generated from them.
