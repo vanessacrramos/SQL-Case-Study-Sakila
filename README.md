@@ -48,13 +48,14 @@ Here’s a summary of the exercises included:
    - [View Query](https://github.com/vanessacrramos/SQL-Case-Study-Sakila/blob/main/sql_scripts/exercise_9.sql)
 10. Top Actors by Appearances
   - List the top 10 actors based on the number of films they've appeared in.
-- [View Query](https://github.com/vanessacrramos/SQL-Case-Study-Sakila/blob/main/sql_scripts/exercise_10.sql)
+  - [View Query](https://github.com/vanessacrramos/SQL-Case-Study-Sakila/blob/main/sql_scripts/exercise_10.sql)
 11. Most Rented Movies by Genre
   - Show the most rented movies by genre and the revenue generated from them.
-   - [View Query](https://github.com/vanessacrramos/SQL-Case-Study-Sakila/blob/main/sql_scripts/exercise_11.sql)
+  - [View Query](https://github.com/vanessacrramos/SQL-Case-Study-Sakila/blob/main/sql_scripts/exercise_11.sql)
 12.Return Timing Analysis
   - Calculate the number of movies returned late, early, and on time.
-    - [View Query](https://github.com/vanessacrramos/SQL-Case-Study-Sakila/blob/main/sql_scripts/exercise_12.sql)
+  - [View Query](https://github.com/vanessacrramos/SQL-Case-Study-Sakila/blob/main/sql_scripts/exercise_12.sql)
+      
 ## 🚀 Getting Started
 To run these SQL scripts, you’ll need:
 1. SQLite Database: Download the Sakila database in .db format.
